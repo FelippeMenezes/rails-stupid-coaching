@@ -2,12 +2,10 @@ import Typed from 'typed.js';
 
 const loadDynamicBannerText = () => {
   new Typed('#banner-typed-text', {
-    strings: ["Ask ^350 your ^250 Coach ^350 anything:", " ^1000 Pergunte ^250 qualquer ^350 coisa ^250 ao ^150 seu ^250 Coach:"],
-    typeSpeed: 75,
-    backSpeed: 50,
-    loop: true,
-    startDelay: 1000,
-    backDelay: 3000
+    strings: ["Ask ^350 your ^350 coach ^350 anything.", "Pergunte ^350 qualquer ^350 coisa ^350 ao ^350 seu ^350 coach."],
+    typeSpeed: 65,
+    backSpeed: 65,
+    loop: true
   });
 }
 
