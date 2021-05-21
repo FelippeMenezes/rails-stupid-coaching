@@ -40,11 +40,15 @@ h1 {
     border-radius: 5px;
     border: double;
     border-color: rgb(136, 0, 0);
+    padding-left: 8px;
+}
+
+p { 
+    margin: 25px;
 }
 
 #banner-typed-text {
     color: green;
-    padding: 5px;
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Press Start 2P', cursive;
@@ -56,19 +60,6 @@ h1 {
     border-radius: 7px;
     border:groove;
     border-color: rgb(136, 0, 0);
-}
-
-cite:before {
-    content: "—"
-}
-
-blockquote {
-    border-left: 6px solid #ddd;
-    margin: 5px 5px;
-    padding: 2px 10px;
-    &.coach {
-        background-color: lightyellow;
-    }
 }
 
 a {
