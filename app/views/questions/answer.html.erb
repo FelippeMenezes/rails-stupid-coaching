@@ -1,17 +1,15 @@
 <div class="container"> 
-  <h1>Stupid Coaching</h1>
-  <p></p>
-  <div class="card-category">
+  <h3>
     <span>
       <% if @question.blank? %>
         😶
       <% else %>
         <%= @question %>
       <% end %>
-    </span>    
-  </div>
+    </span>
+  </h3>
   <p></p>
-  <p></p>
+  
   <div class="card-category">
     <span><%= @answer %></span>
   </div>
