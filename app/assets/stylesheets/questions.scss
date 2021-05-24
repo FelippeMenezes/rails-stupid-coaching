@@ -10,6 +10,8 @@ body {
     background-image: url("https://carboncostume.com/wordpress/wp-content/uploads/2013/01/suesylvester.jpg");
     background-position: right bottom;
     background-repeat: no-repeat;
+    background-color: #fdfbf7;
+    background-size: 75%;
 }
 
 h1 {
@@ -51,7 +53,7 @@ h3 {
 .card-category {
     color: white;
     background-color: rgb(0, 0, 0);
-    height: 50px;
+    height: 100px;
     width: 500px;
     font-size: 24px;
     border-radius: 5px;
@@ -64,11 +66,15 @@ p {
     margin: 25px;
 }
 
-#banner-typed-text {
+#ask-typed-text {
     color: rgb(0, 185, 0);
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Press Start 2P', cursive;
+}
+
+#answer-typed-text {
+
 }
 
 .typed-cursor {
@@ -93,6 +99,6 @@ a:hover {
     color: white;
 }
 
-.btn-success {
-
+.button {
+    width: 500px;
 }

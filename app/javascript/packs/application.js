@@ -6,7 +6,8 @@
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import "channels"
-import { loadDynamicBannerText } from '../components/banner';
+import { loadDynamicAskText } from '../components/ask';
+import { loadDynamicAnswerText } from '../components/answer';
 
 Rails.start()
 Turbolinks.start()
@@ -14,5 +15,6 @@ Turbolinks.start()
 document.addEventListener('turbolinks:load', () => {
   // Call your JS functions here
   // [...]
-  loadDynamicBannerText();
+  loadDynamicAskText();
+  loadDynamicAnswerText();
 });

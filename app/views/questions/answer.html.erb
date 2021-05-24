@@ -4,19 +4,20 @@
       <% if @question.blank? %>
         😶
       <% else %>
-        <%= @question %>
+         - <%= @question %>
       <% end %>
     </span>
   </h3>
   <p></p>
   
   <div class="card-category">
-    <span><%= @answer %></span>
+  
+  <span id="answer-typed-text"></span>
+
   </div>
   <p>
-    <div class="btn btn-success">
+    <div class="button btn btn-success">
       <%= link_to "Ask a new question", ask_path %>
     </div>
-  </p>
-    
+  </p>    
 </div>
